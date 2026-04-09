@@ -138,3 +138,6 @@ console.log(day28ToFahrenheit.toFixed(2));
 console.log(day30ToFahrenheit.toFixed(2));
 
 console.log("###########################################################");
+
+const tot_temperature_in_fahrenheit = (day1TempF + day2ToFahrenheit + day3TempF + day4ToFahrenheit + day5TempF + day6ToFahrenheit + day7TempF + day8ToFahrenheit + day9TempF + day10ToFahrenheit + day11TempF + day12ToFahrenheit + day13TempF + day14ToFahrenheit + day15TempF + day16ToFahrenheit + day17TempF + day18ToFahrenheit + day19TempF + day20ToFahrenheit + day21TempF + day22ToFahrenheit + day23TempF + day24ToFahrenheit + day25TempF + day26ToFahrenheit + day27TempF + day28ToFahrenheit + day29TempF + day30ToFahrenheit).toFixed(2);
+console.log(tot_temperature_in_fahrenheit);
