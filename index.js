@@ -94,11 +94,13 @@ console.log(day29ToCelsius.toFixed(2));
 
 console.log("###########################################################");
 
-const tot_temperature_in_celsius = (day1ToCelsius + day20TempC + day3ToCelsius + day4TempC + day5ToCelsius + day6TempC + day7ToCelsius +day8TempC + day9ToCelsius + day10TempC + day11ToCelsius + day12TempC + day13ToCelsius + day14TempC + day15ToCelsius + day16TempC + day17ToCelsius + day18TempC + day19ToCelsius + day20TempC + day21ToCelsius + day22TempC + day23ToCelsius + day24TempC + day25ToCelsius + day26TempC + day27ToCelsius + day28TempC + day29ToCelsius + day30TempC).toFixed(2);
+const tot_temperature_in_celsius = (day1ToCelsius + day2TempC + day3ToCelsius + day4TempC + day5ToCelsius + day6TempC + day7ToCelsius +day8TempC + day9ToCelsius + day10TempC + day11ToCelsius + day12TempC + day13ToCelsius + day14TempC + day15ToCelsius + day16TempC + day17ToCelsius + day18TempC + day19ToCelsius + day20TempC + day21ToCelsius + day22TempC + day23ToCelsius + day24TempC + day25ToCelsius + day26TempC + day27ToCelsius + day28TempC + day29ToCelsius + day30TempC).toFixed(2);
 console.log(tot_temperature_in_celsius);
 
 const avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
 console.log((avg_temperature_in_celsius).toFixed(2));
+
+console.log("###########################################################");
 
 
 // TO DEGREES FAHRENHEIT
@@ -134,3 +136,5 @@ console.log(day24ToFahrenheit.toFixed(2));
 console.log(day26ToFahrenheit.toFixed(2));
 console.log(day28ToFahrenheit.toFixed(2));
 console.log(day30ToFahrenheit.toFixed(2));
+
+console.log("###########################################################");
