@@ -93,6 +93,6 @@ console.log(day29ToCelsius);
 
 console.log("###########################################################");
 
-const tot_temperature_in_celsius = day1ToCelsius + day3ToCelsius + day5ToCelsius + day7ToCelsius;
+const tot_temperature_in_celsius = day1ToCelsius + day3ToCelsius + day5ToCelsius + day7ToCelsius + day9ToCelsius + day11ToCelsius + day13ToCelsius + day15ToCelsius + day17ToCelsius + day19ToCelsius + day21ToCelsius + day23ToCelsius + day25ToCelsius + day27ToCelsius + day29ToCelsius;
 
 console.log(tot_temperature_in_celsius);
