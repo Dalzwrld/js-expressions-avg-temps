@@ -99,3 +99,22 @@ console.log(tot_temperature_in_celsius);
 
 const avg_temperature_in_celsius = tot_temperature_in_celsius / 30;
 console.log((avg_temperature_in_celsius).toFixed(2));
+
+
+// TO DEGREES FAHRENHEIT
+
+let day2ToFahrenheit = (day2TempC - 32) * 5 / 9;
+let day4ToFahrenheit = (day4TempC - 32) * 5 / 9;
+let day6ToFahrenheit = (day6TempC - 32) * 5 / 9;
+let day8ToFahrenheit = (day8TempC - 32) * 5 / 9;
+let day10ToFahrenheit = (day10TempC - 32) * 5 / 9;
+let day12ToFahrenheit = (day12TempC - 32) * 5 / 9;
+let day14ToFahrenheit = (day14TempC - 32) * 5 / 9;
+let day16ToFahrenheit = (day16TempC - 32) * 5 / 9;
+let day18ToFahrenheit = (day18TempC - 32) * 5 / 9;
+let day20ToFahrenheit = (day20TempC - 32) * 5 / 9;
+let day22ToFahrenheit = (day22TempC - 32) * 5 / 9;
+let day24ToFahrenheit = (day24TempC - 32) * 5 / 9;
+let day26ToFahrenheit = (day26TempC - 32) * 5 / 9;
+let day28ToFahrenheit = (day28TempC - 32) * 5 / 9;
+let day30ToFahrenheit = (day30TempC - 32) * 5 / 9;
