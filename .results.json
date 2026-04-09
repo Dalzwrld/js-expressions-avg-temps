@@ -5,9 +5,9 @@
     "passes": 0,
     "pending": 0,
     "failures": 8,
-    "start": "2026-04-09T16:10:59.958Z",
-    "end": "2026-04-09T16:11:00.239Z",
-    "duration": 281
+    "start": "2026-04-09T21:02:54.929Z",
+    "end": "2026-04-09T21:02:55.269Z",
+    "duration": 340
   },
   "tests": [
     {
@@ -83,7 +83,7 @@
     {
       "title": "is accurate with a tolerance of 0.2 degrees",
       "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: avg_temperature_in_celsius is not defined\n    at Context.<anonymous> (test/indexTest.js:73:20)\n    at process.processImmediate (node:internal/timers:504:21)",
@@ -166,7 +166,7 @@
     {
       "title": "is accurate with a tolerance of 0.2 degrees",
       "fullTitle": "index.js avg_temperature_in_celsius is accurate with a tolerance of 0.2 degrees",
-      "duration": 0,
+      "duration": 1,
       "currentRetry": 0,
       "err": {
         "stack": "ReferenceError: avg_temperature_in_celsius is not defined\n    at Context.<anonymous> (test/indexTest.js:73:20)\n    at process.processImmediate (node:internal/timers:504:21)",

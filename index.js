@@ -26,15 +26,15 @@ module.exports = {
 
 
 
-const day1TempF =32;
-const day2TempC =25;
-const day3TempF =70;
-const day4TempC =18;
-const day5TempF =80;
-const day6TempC =15;
-const day7TempF =72;
-const day8TempC =28;
-const day9TempF =68;
+const day1TempF = 32;
+const day2TempC = 25;
+const day3TempF = 70;
+const day4TempC = 18;
+const day5TempF = 80;
+const day6TempC = 15;
+const day7TempF = 72;
+const day8TempC = 28;
+const day9TempF = 68;
 const day10TempC = 20;
 const day11TempF = 75;
 const day12TempC = 23;
@@ -57,20 +57,36 @@ const day28TempC = 17;
 const day29TempF = 76;
 const day30TempC = 29;
 
-const tempsInFahrenheit = [
-    32,
-    70,
-    80,
-    72,
-    68,
-    75,
-    82,
-    65,
-    77,
-    78,
-    73,
-    79,
-    71,
-    74,
-    76,
-];
+
+let day1ToCelsius = (day1TempF - 32) * 5 / 9;
+let day3ToCelsius = (day3TempF - 32) * 5 / 9;
+let day5ToCelsius = (day5TempF - 32) * 5 / 9;
+let day7ToCelsius = (day7TempF - 32) * 5 / 9;
+let day9ToCelsius = (day9TempF - 32) * 5 / 9;
+let day11ToCelsius = (day11TempF - 32) * 5 / 9;
+let day13ToCelsius = (day13TempF - 32) * 5 / 9;
+let day15ToCelsius = (day15TempF - 32) * 5 / 9;
+let day17ToCelsius = (day17TempF - 32) * 5 / 9;
+let day19ToCelsius = (day19TempF - 32) * 5 / 9;
+let day21ToCelsius = (day21TempF - 32) * 5 / 9;
+let day23ToCelsius = (day23TempF - 32) * 5 / 9;
+let day25ToCelsius = (day25TempF - 32) * 5 / 9;
+let day27ToCelsius = (day27TempF - 32) * 5 / 9;
+let day29ToCelsius = (day29TempF - 32) * 5 / 9;
+
+
+console.log(day1ToCelsius);
+console.log(day3ToCelsius);
+console.log(day5ToCelsius);
+console.log(day7ToCelsius);
+console.log(day9ToCelsius);
+console.log(day11ToCelsius);
+console.log(day13ToCelsius);
+console.log(day15ToCelsius);
+console.log(day17ToCelsius);
+console.log(day19ToCelsius);
+console.log(day21ToCelsius);
+console.log(day23ToCelsius);
+console.log(day25ToCelsius);
+console.log(day27ToCelsius);
+console.log(day29ToCelsius);
