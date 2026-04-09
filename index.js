@@ -57,15 +57,20 @@ const day28TempC = 17;
 const day29TempF = 76;
 const day30TempC = 29;
 
-let tot_temperature_in_celsius = 0;
-let daysToCelsius = (fahrenheit -32) * 5 / 9;
-
-console.log(daysToCelsius);
-
-for (const key in daysToCelsius) {
-    if (dayTemperatures.hasOwn(daysToCelsius, key)) {
-        tot_temperature_in_celsius += daysToCelsius[key]; 
-    } 
-}
-
-console.log(tot_temperature_in_celsius);
+const tempsInFahrenheit = [
+    32,
+    70,
+    80,
+    72,
+    68,
+    75,
+    82,
+    65,
+    77,
+    78,
+    73,
+    79,
+    71,
+    74,
+    76,
+];
