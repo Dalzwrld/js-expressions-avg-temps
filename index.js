@@ -20,3 +20,8 @@ module.exports = {
     // avg_temperature_in_fahrenheit,
     // avg_temperature_in_celsius
 };
+
+// Data: 32°F, 25°C, 70°F, 18°C, 80°F, 15°C, 72°F, 28°C, 68°F, 20°C, 75°F, 23°C, 82°F, 30°C, 65°F, 22°C, 77°F, 26°C, 78°F, 24°C, 
+// 73°F, 21°C, 79°F, 27°C, 71°F, 19°C, 74°F, 17°C, 76°F, 29°C
+
+const day1TempF = 32;
