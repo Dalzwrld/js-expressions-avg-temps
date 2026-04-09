@@ -75,24 +75,24 @@ let day27ToCelsius = (day27TempF - 32) * 5 / 9;
 let day29ToCelsius = (day29TempF - 32) * 5 / 9;
 
 
-console.log(day1ToCelsius);
-console.log(day3ToCelsius);
-console.log(day5ToCelsius);
-console.log(day7ToCelsius);
-console.log(day9ToCelsius);
-console.log(day11ToCelsius);
-console.log(day13ToCelsius);
-console.log(day15ToCelsius);
-console.log(day17ToCelsius);
-console.log(day19ToCelsius);
-console.log(day21ToCelsius);
-console.log(day23ToCelsius);
-console.log(day25ToCelsius);
-console.log(day27ToCelsius);
-console.log(day29ToCelsius);
+console.log(day1ToCelsius.toFixed(2));
+console.log(day3ToCelsius.toFixed(2));
+console.log(day5ToCelsius.toFixed(2));
+console.log(day7ToCelsius.toFixed(2));
+console.log(day9ToCelsius.toFixed(2));
+console.log(day11ToCelsius.toFixed(2));
+console.log(day13ToCelsius.toFixed(2));
+console.log(day15ToCelsius.toFixed(2));
+console.log(day17ToCelsius.toFixed(2));
+console.log(day19ToCelsius.toFixed(2));
+console.log(day21ToCelsius.toFixed(2));
+console.log(day23ToCelsius.toFixed(2));
+console.log(day25ToCelsius.toFixed(2));
+console.log(day27ToCelsius.toFixed(2));
+console.log(day29ToCelsius.toFixed(2));
 
 console.log("###########################################################");
 
-const tot_temperature_in_celsius = day1ToCelsius + day3ToCelsius + day5ToCelsius + day7ToCelsius + day9ToCelsius + day11ToCelsius + day13ToCelsius + day15ToCelsius + day17ToCelsius + day19ToCelsius + day21ToCelsius + day23ToCelsius + day25ToCelsius + day27ToCelsius + day29ToCelsius;
+const tot_temperature_in_celsius = (day1ToCelsius + day3ToCelsius + day5ToCelsius + day7ToCelsius + day9ToCelsius + day11ToCelsius + day13ToCelsius + day15ToCelsius + day17ToCelsius + day19ToCelsius + day21ToCelsius + day23ToCelsius + day25ToCelsius + day27ToCelsius + day29ToCelsius).toFixed(2);
 
 console.log(tot_temperature_in_celsius);
