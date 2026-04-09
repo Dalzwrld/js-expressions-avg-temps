@@ -61,10 +61,13 @@ const dayTemperatures = {
 
 let sum = 0;
 
-const tot_temperature_in_celsius = dayTemperatures(tempInFahrenheit - 32)*5/9;
+const daysInFahrenheit = 0;
+if (dayTemperatures.value % 2 === 0) {
+    return dayTemperatures(Fahrenheit - 32) * 5 / 9;
+}
 
-console.log(weatherArray);
+console.log(daysInFahrenheit);
 
-for (let i = 0; i < weatherArray.length; i++) {
-    
+for (let i = 0; i < dayTemperatures.length; i++) {
+    return sum += dayTemperatures.value;
 }
