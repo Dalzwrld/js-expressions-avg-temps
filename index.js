@@ -59,15 +59,15 @@ const dayTemperatures = {
     day30TempC: 29,
 };
 
-let sum = 0;
+let tot_temperature_in_celsius = 0;
 
-const daysInFahrenheit = 0;
-if (dayTemperatures.value % 2 === 0) {
-    return dayTemperatures(Fahrenheit - 32) * 5 / 9;
-}
 
 console.log(daysInFahrenheit);
 
-for (let i = 0; i < dayTemperatures.length; i++) {
-    return sum += dayTemperatures.value;
+for (const key in daysToCelsius) {
+    if (dayTemperatures.hasOwn(daysToCelsius, key)) {
+        tot_temperature_in_celsius += daysToCelsius[key]; 
+    } 
 }
+
+console.log(tot_temperature_in_celsius);
