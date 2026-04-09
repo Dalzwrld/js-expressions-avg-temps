@@ -54,3 +54,10 @@ const day27TempF = 74;
 const day28TempC = 17;
 const day29TempF = 76;
 const day30TempC = 29;
+
+const weatherArray = [];
+
+for (let i = 0; i < weatherArray.length; i++) {
+    const tot_temperature_in_celsius = ;
+    
+}
