@@ -26,43 +26,41 @@ module.exports = {
 
 
 
-const dayTemperatures = {
-    day1TempF: 32,
-    day2TempC: 25,
-    day3TempF: 70,
-    day4TempC: 18,
-    day5TempF: 80,
-    day6TempC: 15,
-    day7TempF: 72,
-    day8TempC: 28,
-    day9TempF: 68,
-    day10TempC: 20,
-    day11TempF: 75,
-    day12TempC: 23,
-    day13TempF: 82,
-    day14TempC: 30,
-    day15TempF: 65,
-    day16TempC: 22,
-    day17TempF: 77,
-    day18TempC: 26,
-    day19TempF: 78,
-    day20TempC: 24,
-    day21TempF: 73,
-    day22TempC: 21,
-    day23TempF: 79,
-    day24TempC: 27,
-    day25TempF: 71,
-    day26TempC: 19,
-    day27TempF: 74,
-    day28TempC: 17,
-    day29TempF: 76,
-    day30TempC: 29,
-};
+const day1TempF =32;
+const day2TempC =25;
+const day3TempF =70;
+const day4TempC =18;
+const day5TempF =80;
+const day6TempC =15;
+const day7TempF =72;
+const day8TempC =28;
+const day9TempF =68;
+const day10TempC = 20;
+const day11TempF = 75;
+const day12TempC = 23;
+const day13TempF = 82;
+const day14TempC = 30;
+const day15TempF = 65;
+const day16TempC = 22;
+const day17TempF = 77;
+const day18TempC = 26;
+const day19TempF = 78;
+const day20TempC = 24;
+const day21TempF = 73;
+const day22TempC = 21;
+const day23TempF = 79;
+const day24TempC = 27;
+const day25TempF = 71;
+const day26TempC = 19;
+const day27TempF = 74;
+const day28TempC = 17;
+const day29TempF = 76;
+const day30TempC = 29;
 
 let tot_temperature_in_celsius = 0;
+let daysToCelsius = (fahrenheit -32) * 5 / 9;
 
-
-console.log(daysInFahrenheit);
+console.log(daysToCelsius);
 
 for (const key in daysToCelsius) {
     if (dayTemperatures.hasOwn(daysToCelsius, key)) {
